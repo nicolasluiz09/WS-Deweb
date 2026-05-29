@@ -1,0 +1,17 @@
+p{
+    background-color: blue;
+}
+p{
+    margin: 100p;
+}
+p{
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+p{
+    margin: 210px 10px;
+}
+p{
+    margin: 30px 10px 0 20px;                                                                   
+}
