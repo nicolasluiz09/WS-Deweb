@@ -1,0 +1,15 @@
+p{
+    padding: 30px;
+}
+p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    padding: 30px 15px;
+}
+p{
+    padding: 30px 15px 30px 15px;
+}

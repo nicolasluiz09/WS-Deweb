@@ -1,0 +1,13 @@
+a{
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: nome;
+    text-decoration: nome;
+    cursor: pointer;
+}
+a:hover{
+    background-color: lightblue;
+    text-decoration: underline;
+}
