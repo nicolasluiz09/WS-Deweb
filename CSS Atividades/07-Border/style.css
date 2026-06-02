@@ -1,0 +1,12 @@
+p{
+    border-width: 2px;
+    border-color: red;
+    border-radius: 10px;
+    border-style: solid;
+}
+p{
+    border-width: 2px 4px 6px 8px;
+    border-color: red green blue yellow;
+    border-radius: 10px 20px 30px 40px;
+    border-style: solid;
+}
