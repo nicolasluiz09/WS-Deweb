@@ -1,0 +1,25 @@
+/*IMPORTANT*/
+p{
+    background-color: lightgoldenrodyellow !important;
+}
+/*efeito cascata*/
+
+.container-cascata{
+    background-color: burlywood;
+}
+.container-cascata{
+    background-color: cornsilk;
+}
+.container-cascata{
+    background-color: darkgray;
+}
+/*especificidade*/
+#id-paragrafo{
+    background-color: chocolate;
+}
+.classe-paragrafo{
+    background-color: darkgoldenrod;
+}
+p{
+    background-color: cadetblue;
+}

@@ -1,0 +1,56 @@
+.alinhamento-esquerda{
+    text-align: left;
+}
+.alinhamento-direita{
+    text-align: right;
+}
+.alinhamento-centro{
+    text-align: center;
+}
+.alinhamento-justificado{
+    text-align: justify;
+}
+.maiusculo{
+    text-transform: uppercase;
+}
+.minusculo{
+    text-transform: lowercase;
+}
+.pri-maiusculo{
+    text-transform: capitalize;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.tachado{
+    text-decoration: line-through;
+}
+.link{
+    text-decoration: none;
+}
+.link-houver{
+    text-decoration: underline;
+}
+.espaçamento{
+    line-height: 60px;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+}
+.sombra{
+    text-shadow: 2px 2px 5px red;
+}
+.fonte{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fonte-externa{
+    font-family: "inter", sans-serif;
+}
+.tamanho{
+    font-size: 32px;
+}
+.espessura{
+    font-weight: bold;
+}
+.estilo{
+    font-size: italic;
+}
