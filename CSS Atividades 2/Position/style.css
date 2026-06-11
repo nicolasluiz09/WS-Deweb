@@ -1,0 +1,23 @@
+.elemento{
+    color: white;
+    font-size: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.estatico{
+    background-color: navy;
+    position: static;
+}
+.relativ{
+    background-color: coral;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.absoluto{
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    left: 300px;
+}

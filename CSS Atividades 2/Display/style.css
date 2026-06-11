@@ -1,0 +1,19 @@
+li{
+    background-color: coral;
+    color: white;
+}
+.block{
+    display:black;
+    width: 100px;
+    margin: 5px;
+}
+.inlaine li{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+}
+.inline-block{
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+}

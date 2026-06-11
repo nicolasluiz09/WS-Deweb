@@ -1,0 +1,17 @@
+.alinhamento-esquerda{
+    text-align: left;
+}
+.maiusculo{
+    text-transform: uppercase;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.espaçamento{
+    line-height: 60px;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+}
+.sombra{
+    text-shadow: 2px 2px 5px red;
+}

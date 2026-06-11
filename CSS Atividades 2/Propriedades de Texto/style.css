@@ -1,0 +1,15 @@
+.fonte{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fonte-externa{
+    font-family: "inter", sans-serif;
+}
+.tamanho{
+    font-size: 32px;
+}
+.espessura{
+    font-weight: bold;
+}
+.estilo{
+    font-size: italic;
+}
