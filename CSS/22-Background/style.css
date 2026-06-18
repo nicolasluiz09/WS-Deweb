@@ -1,4 +1,25 @@
-.bg{
-    background-color: coral;
-    background-image: url(https://pt.wallpapers.com/fundo-roxo-e-preto);
+.banner{
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #000a94 0%, #9d00bd 20%,
+    #d40051 100%);
+}
+
+.secao{
+    height: 300px;
+    padding: 50px;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card{
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: radial-gradient(circle, #000a94 0%, #9d00bd 50%, #d40051 100%);
 }
