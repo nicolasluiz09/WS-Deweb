@@ -1,0 +1,81 @@
+.bloco {
+    margin: 10px auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgb(102, 116, 117);
+}
+.bloco p {
+margin-top: 10px;
+font-size: 24px;
+}
+.bloco h2 {
+    margin-bottom: 10px;
+}
+button {
+    background-color: rgb(214, 208, 209);
+    color: rgb(8, 8, 8);
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.b-transition {
+    transition: 2s;
+}
+.b-transition:hover {
+    transform: scale(1.6);
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.b-property {
+    transition-property: background-color;
+    transition: 2s;
+}
+.b-property:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 400px;
+}
+
+.b-duration{
+    transition-duration: 2s;
+}
+
+.b-duration:hover{
+    transform: scale(1.6);
+}
+
+.b-delay{
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+.b-delay:hover{
+    transform: translate(15px);
+}
+
+.b-tining{
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+}
+
+.b-tining:hover{
+    transform: translate(100px);
+}
+
+.card-animado{
+    transition: transform 2s, box-shadow 3s;
+}
+
+.card-animado:hover{
+    transform: scale(1.0s);
+    box-shadow: 1px 10px ;
+}
+
+ 
