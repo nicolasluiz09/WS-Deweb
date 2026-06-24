@@ -1,0 +1,31 @@
+.container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    margin: 5px;
+}
+.item {
+    background-color: coral;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.start{
+justify-content: start;
+}
+.end{
+justify-content: end;
+}
+.center{
+justify-content: center;
+}
+.between{
+justify-content: space-between;
+}
+.around{
+justify-content: space-around;
+}
+.evenly{
+justify-content: space-evenly;
+}

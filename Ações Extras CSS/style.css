@@ -1,0 +1,26 @@
+*{
+    margin: auto;
+    padding: 0;
+    background-color: 100px  darkslategray;
+    color: white black;
+}
+
+
+
+.bloco-jogos{
+margin: 30px;
+}
+.bloco-lojas{
+    margin: 270px;
+    margin-top: -200px;
+    border-color: blue;
+}
+.bloco-ferramentas{
+    margin: 600px;
+    margin-top: -460px;
+    border: 200px solid darkslategray;
+    color: whitesmoke;
+}
+p{
+    
+}
