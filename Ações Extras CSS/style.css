@@ -5,22 +5,22 @@
     color: white black;
 }
 
-
-
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    border: 2px solid #0f0f0f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: navy;
+}
 .bloco-jogos{
-margin: 30px;
-}
-.bloco-lojas{
-    margin: 270px;
-    margin-top: -200px;
-    border-color: blue;
-}
-.bloco-ferramentas{
-    margin: 600px;
-    margin-top: -460px;
-    border: 200px solid darkslategray;
-    color: whitesmoke;
-}
-p{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
 }
