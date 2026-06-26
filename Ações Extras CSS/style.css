@@ -2,7 +2,10 @@
     margin: auto;
     padding: 0;
     background-color: 100px  darkslategray;
-    color: white black;
+    color:white
+}
+*{
+    background-color: gray;
 }
 
 .caixa{
