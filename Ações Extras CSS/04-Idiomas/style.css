@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    margin: 0;
+    padding: 40px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #0d47a1;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Destaca a primeira letra do parágrafo */
+.beneficios::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+/* Estiliza a primeira linha do parágrafo */
+.beneficios::first-line {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 2px solid #1565c0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estiliza o placeholder */
+input::placeholder {
+    color: #777;
+    font-style: italic;
+}

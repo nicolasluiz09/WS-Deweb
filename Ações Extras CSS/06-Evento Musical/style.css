@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:#f4f4f4; /* background-color */
+}
+
+/* Banner com linear-gradient */
+.banner{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+/* Imagem de fundo */
+.evento{
+    background-image:url("festival.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+/* Cards */
+.atracoes{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+    background:linear-gradient(90deg,#f8f9fa,#dfe9f3);
+}
+
+.card{
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    background:radial-gradient(circle,#ffffff,#d6e4ff);
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+/* Destaque para ingressos */
+.ingressos{
+    text-align:center;
+    padding:50px;
+    color:white;
+
+    /* propriedade abreviada background */
+    background:#ff512f linear-gradient(to right,#ff512f,#dd2476)
+    no-repeat center/cover;
+}
+
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    background:white;
+    color:#dd2476;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#f0f0f0;
+}

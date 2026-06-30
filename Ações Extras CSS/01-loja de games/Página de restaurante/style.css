@@ -1,0 +1,64 @@
+:root {
+    --cor-principal: #c0392b;
+    --cor-fundo: #f8f8f8;
+    --cor-texto: #333;
+    --espacamento: 20px;
+    --borda: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+    padding: var(--espacamento);
+}
+
+header {
+    text-align: center;
+    margin-bottom: var(--espacamento);
+}
+
+h1, h2 {
+    color: var(--cor-principal);
+}
+
+button {
+    background-color: var(--cor-principal);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--borda);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.pratos {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: var(--espacamento);
+    margin: 10px;
+    border-radius: var(--borda);
+    display: inline-block;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.destaque {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: var(--espacamento);
+    margin-top: var(--espacamento);
+    border-radius: var(--borda);
+    text-align: center;
+}
+
+.destaque h2 {
+    color: white;
+}

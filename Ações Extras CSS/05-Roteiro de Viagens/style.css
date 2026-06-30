@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #0066cc;
+}
+
+h2 {
+    color: #004080;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Lista da mala */
+.mala {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: #e6f7ff;
+    border: 2px solid #66b3ff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Lista dos lugares */
+.lugares {
+    list-style: upper-roman outside;
+    background-color: #fff7e6;
+    border: 2px solid #ffcc66;
+}
+
+li {
+    margin: 8px 0;
+}
