@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #9e8f8f;
+    color: #3f2323;
+    padding: 24px;
+    font-family: "Montenegrin", sans-serif;
+    padding: 2rem;
+}
+img {
+    width: 100%;
+    display: block;
+}
+
+/*----- CABEÇALHO -----*/
+
+header {
+    background-color: brown;
+    padding: 0.75rem 1.25rem;
+    max-width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    color: white;
+}
+
+header h1 {
+    font-family: "Montenegrin", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+header h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.btn-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 0.75rem #aaa;
+}
+
+.btn-header:hover {
+    background-color: rgba(128, 0, 6, 0.8);
+}
+
+.btn-header span {
+    font-weight: 1.5rem;
+  
+}
+
+main{
+    background-color: #fafafa;
+    padding: 0.75rem 1.25rem;
+    max-width: 80vw;
+    margin: 0 auto;
+    border-radius: 0 0 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #fafafa;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    box-shadow: 0 0.25rem 0.75rem brown;
+}
+.card h2{
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.card label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.card select, .card input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid brown;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+}
+
+.card select:focus, .card input:focus {
+    border-color: brown;
+}
+
+select option {
+    background-color: brown;
+    color: white;
+}
+
+.card .btn-adicionar {
+  background-color: dodgerblue;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.75rem #aaa;
+  margin-bottom: 1rem;
+}
+
+.card .btn-adicionar:hover {
+  background-color: rgba(30, 144, 255, 0.8);
+}
+
+.card .info {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid #aaa;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.card .summary {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary .total-limpar {
+  background-color: burlywood;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.25rem 0.75rem brown;
+  margin-bottom: 1rem;
+}
+
+.summary .total-limpar:hover {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.summary p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .summary .total-valor{
+      font-size: 1.25rem;
+      color: dodgerblue;
+      font-weight: 600;
+  }
+  
